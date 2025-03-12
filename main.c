@@ -42,7 +42,7 @@ int main() {
                 printf("Enter the temperature in Celsius.: ");
                 scanf("%lf", &celsius);
                 double fahrenheit = celsius * 9 / 5 + 32;
-                printf("Temperature in Fahrenheit: %.1lf\n", fahrenheit);
+                printf("Temperature in Fahrenheit: %.1f\n", fahrenheit);
                 break;
             }
             case 9: {
@@ -50,9 +50,9 @@ int main() {
                 printf("Enter a number: ");
                 scanf("%d", &number);
                 if (number % 2) {
-                    printf("Even number\n");
-                } else {
                     printf("Odd number\n");
+                } else {
+                    printf("Even number\n");
                 }
                 break;
             }
